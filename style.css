@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    font-family: 'inter';   
+}
+
+#logo{
+   margin: 50px 0px 0px 75px;
+}
+
+/*corrigir configurações de layout da  imagem de babcground de para adequação em relação as carcteristicas do projeto.*/
+#menu{
+    background-image: url(image/wallpaper.svg);
+    color: white;
+    padding-bottom: 150px;
+
+}
+/*Menu Superior*/
+#title{
+    margin: 50px 0px 0px 205px;
+    color: white;
+    padding-top: 20px;
+}
+
+#paragraphMenu {
+    margin: 50px 0px 0px 205px;
+    color: white;  
+}
+
+/*Menu Informacional*/
+
+#menuInformacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background: #EAECE5;
+
+}
+.iconsMI {
+    margin: 60px 0px 50px 50px;
+    padding: 30px;
+}
+
+/*Apresentação*/
+
+.informationText {
+    display: flex;
+    align-items: center;
+}
+
+#apresentacao1 {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#apresentacao2{
+    display: flex;
+    align-items: center;
+    padding: 110px;
+}
+
+#apresentacao3{
+
+    display: flex;
+    align-items: center;
+}
+
+
+#titlevideo {
+    color: #247BA0;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+
+}
+
+/*Carrossel*/
+
+#carrossel{
+    background-color: #247BA0;
+}
+
+#tituloCorrossel{
+    color: white;
+    font-size: 32px;
+    padding: 50px;
+    text-align: center;
+}
+
+#alunos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto ;
+    padding: 100px; 
+    margin-left: 100px;
+    
+}
+
+
+#seta-esquerda{
+    display: none;
+}
+
+#seta-direita{
+    
+    margin-top: 50px;
+}
+
+
+#samantha{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+.cards:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+
+
+
+
+/*Formulario*/
+
+#tittleForm{
+    color: #383838;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#formulario{
+    text-align: center;
+}
+
+input{
+    margin: 20px;
+    width: 413px;
+   
+    height: 53px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #EAECE5;
+    padding-left: 20px;
+}
+
+
+input:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,3s;
+    box-shadow: 0px 15px 20px #a0a581;
+}
+
+#button{
+    margin-top: 20px;
+    margin-bottom: 150px;
+    cursor: pointer;
+
+    width: 340px;
+    height: 53px;
+    border: 0px;
+    border-radius: 8px;
+   
+    color: white;
+    background-color: #247BA0;
+
+
+}
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,25s;
+    box-shadow: 0px 15px 20px #282aa5;
+}
+
+
+
+
+
+
+
+
+
+
+
